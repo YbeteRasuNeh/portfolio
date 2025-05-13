@@ -20,7 +20,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: black;
+    background-color: white;
 }
 
 .container {
@@ -687,4 +687,39 @@ footer {
     .filter-btn {
         margin: 5px 0;
     }
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.cv-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cv-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #3498db;
+  margin-bottom: 15px;
+}
+
+.cv-preview {
+  text-align: center;
+}
+
+.btn2 {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
 }
